@@ -29,12 +29,12 @@ const Content$4 = () => {
   ];
 
   return (
-    <div className="w-full justify-center items-center flex">
-      <div className="flex mt-[70px]">
+    <div className="w-ful  lg:items-center lg:justify-center lg:flex-row flex-col flex">
+      <div className="flex  mt-[70px] w-[90%]">
         {FourContent.map((el, i) => (
           <div key={i}>
             <h4 className=" text-xl">{el.title}</h4>
-            <p>{el.Description}</p>
+            <p className=" text-xs w-[70%]">{el.Description}</p>
           </div>
         ))}
       </div>

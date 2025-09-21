@@ -14,8 +14,8 @@ const Page = () => {
       {/* {HomePage} */}
       <div className="absolute top-0 left-0 -z-10">
         <BusyHero />
-        <div className="w-full flex justify-center  items-center h-screen flex-col ">
-          <div className="lg:w-3/5 w-5/5 lg:mt-[460px] mt-[400px]  pl-10">
+        <div className="min-w-full flex justify-center  items-center h-screen flex-col ">
+          <div className="lg:w-3/5 w-5/5 lg:mt-[350px] mt-[460px]  pl-10">
             <h4 className="font-semibold text-lg  lg:text-xl flex gap-1">
               {" "}
               <p>BUSY</p> <p>Bar</p>{" "}
@@ -33,7 +33,9 @@ const Page = () => {
               BUY
             </button>
           </div>
-          <Content$4 />
+          <div className="">
+            <Content$4 />
+          </div>
         </div>
       </div>
 
