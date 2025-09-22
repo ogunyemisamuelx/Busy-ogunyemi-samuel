@@ -10,9 +10,18 @@ const BusyHero = () => {
           playsInline
           loop
           muted
-          className="w-full h-[830px] object-cover"
+          className="w-full h-[860px] object-cover"
         ></video>
+        <ProductivityHero />
       </div>
+    </div>
+  );
+};
+
+const ProductivityHero = () => {
+  return (
+    <div className="w-full min-h-[100vh] flex flex-col items-center justify-center ">
+      <h2 className=" text-6xl">Productivity multi-tool</h2>
     </div>
   );
 };

@@ -15,7 +15,7 @@ const Page = () => {
       <div className="absolute top-0 left-0 -z-10">
         <BusyHero />
         <div className="min-w-full flex justify-center  items-center h-screen flex-col ">
-          <div className="lg:w-3/5 w-5/5 lg:mt-[350px] mt-[460px]  pl-10">
+          <div className="lg:w-3/5 w-5/5 lg:mt-[350px] mt-[470px]  pl-10">
             <h4 className="font-semibold text-lg  lg:text-xl flex gap-1">
               {" "}
               <p>BUSY</p> <p>Bar</p>{" "}
@@ -29,7 +29,7 @@ const Page = () => {
             </p>
           </div>
           <div className="mt-10">
-            <button className="px-16 py-5 rounded-md bg-[#EA5212] text-white">
+            <button className="px-16 py-5 rounded-md bg-[#EA5212] text-white cursor-pointer ">
               BUY
             </button>
           </div>

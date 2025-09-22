@@ -29,10 +29,10 @@ const Content$4 = () => {
   ];
 
   return (
-    <div className="w-ful  lg:items-center lg:justify-center lg:flex-row flex-col flex">
-      <div className="flex  mt-[70px] w-[90%]">
+    <div className="w-full flex justify-center items-center pl-3 lg:pl-24">
+      <div className="grid grid-cols-2 gap-5 sm:grid-cols-2  mt-[40px] w-[98%] text-balance lg:flex ">
         {FourContent.map((el, i) => (
-          <div key={i}>
+          <div key={i} className="flex flex-col">
             <h4 className=" text-xl">{el.title}</h4>
             <p className=" text-xs w-[70%]">{el.Description}</p>
           </div>
